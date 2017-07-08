@@ -98,15 +98,15 @@
   </div>
 </nav>
 <div class="jumbotron text-center">
-  <h2>HTML Syntax</h2>
-  <p>How Webpages Are Built</p>
+  <h2>HTML Links</h2>
+  <p>How Webpages Are Connected</p>
 </div>
 
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-primary">
-                <div class="panel-heading">HTML Syntax</div>
+                <div class="panel-heading">HTML Links</div>
 
                 <div class="panel-body">
                   <p>
@@ -125,66 +125,19 @@
                         &lt;/head&gt;
                         &lt;body&gt;
                         &lt;h2 title="This is awesome"&gt;Welcome To My Webpage&lt;/h2&gt;
-                          &lt;p id="intro-paragraph"&gt;This is some body text.&lt;/p&gt;
+                          &lt;p id="intro-paragraph"&gt;
+                          This is some body text. Be sure to check out my &lt;a href="https://jyroneparker.com"&gt;website&lt;/a&gt;
+                          &lt;/p&gt;
                         &lt;/body&gt;
                       &lt;/html&gt;
                     </code>
                   </pre>
-                  <p>
-                  Notice the syntax the top most and bottom most tags are &lt;html&gt; and &lt;/html&gt; these are the first and last elements that have to be in every
-                  HTML document. All other elements in the document are said to be <strong>nested</strong> inside of the html element. All elements in HTML are represented by tags, and all (but a few exceptions) have the syntax as follows:
-                  <strong>&lt;tag&gt;</strong>element content<strong>&lt;/tag&gt;</strong>. Back to the example above let's examine the minimum elements needed for an HTML document
-                  <ul>
-                    <li><strong>html</strong> - The first element a browser must see in order to render a webpage. Defines the start of an HTML document</li>
-                    <li><strong>head</strong> - must come after html element and before the body element. This is where you define metadata about your webpage.</li>
-                    <li><strong>title</strong> - defines the title of the webpage. This shows on the browser tab and also is the title given to a bookmarked page.</li>
-                    <li><strong>body</strong> - where the content of the webpage goes. Here you will nest other elements such as paragraphs and images to show to your audience </li>
-                    <li><strong>h2</strong> - defines a second level heading. Headings are used by search engines to decypher stucture and content. H1 is the biggest/important H6 is the least.</li>
-                    <li><strong>p</strong> - defines a paragraph.</li>
-                  </ul>
-                </p>
-                <p>
-                  All elements can have attributes, which are always defined on the start tag with the syntax name="value". Attributes provide additional information about HTML elements. As you go through the course more details will be provided in context. Some common ones include:
-                  <table class="table table-striped">
-                    <tbody>
-                      <tr>
-                        <th>Attribute</th>
-                        <th>Description</th>
-                      </tr>
-                    <tr>
-                    <td>alt</td>
-                    <td>Specifies an alternative text for an image, when the image cannot be
-                    displayed</td>
-                    </tr>
-                    <tr>
-                    <td>disabled</td>
-                    <td>Specifies that an input element should be disabled</td>
-                    </tr>
-                    <tr>
-                    <td>href</td>
-                    <td>Specifies the URL (web address) for a link</td>
-                    </tr>
-                    <tr>
-                    <td>id</td>
-                    <td>Specifies a unique id for an element</td>
-                    </tr>
-                    <tr>
-                    <td>src</td>
-                    <td>Specifies the URL (web address) for an image</td>
-                    </tr>
-                    <tr>
-                    <td>style</td>
-                    <td>Specifies an inline CSS style for an element</td>
-                    </tr>
-                    <tr>
-                    <td>title</td>
-                    <td>Specifies extra information about an element (displayed as a tool tip)</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </p>
+
+                <div class=" pull-left">
+                <a href="syntax.html" class="btn btn-primary"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Syntax</a>
+                </div>
                 <div class=" pull-right">
-                <a href="links.html" class="btn btn-primary">Links <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                <a href="lists.html" class="btn btn-primary">Lists <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                 </div>
                 </div>
               </div>
