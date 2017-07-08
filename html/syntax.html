@@ -24,6 +24,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Prism.js -->
+<link rel="stylesheet" href="../plugins/prism.css">
+<script src="../plugins/prism.js"></script>
+
 <!-- Google CDN jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
@@ -42,7 +46,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="../index.html">Home</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">HTML
         <span class="caret"></span></a>
@@ -92,29 +96,40 @@
   </div>
 </nav>
 <div class="jumbotron text-center">
-  <h2>Welcome To The Jyrone Parker Front End Web Series</h2>
-  <p>Get Started Learning Web Development</p>
+  <h2>HTML Syntax</h2>
+  <p>How Webpages Are Built</p>
 </div>
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Learn At Your Own Pace</h3>
-      <p>There is no rush</p>
-      <p>Ut enim ad..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Comprehensive Worksheets</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Updates For Life</h3>
-      <p>Lorem ipsum dolor..</p>
-      <p>Ut enim ad..</p>
-    </div>
-  </div>
-</div>
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-primary">
+                <div class="panel-heading">HTML Syntax</div>
+
+                <div class="panel-body">
+                  HTML stands for Hyper Text Markup Language, it is the language
+                  that webpages are created in and the first leg in the front end
+                  web development trio. HTML documents are made up of elements which are represented
+                  by tags. Almost all elements have an opening and a closing tag.
+                  The below example is a minimum HTML document.
+
+                  <pre>
+                    <code class="language-markup">
+                      &lt;html&gt;
+                        &lt;head&gt;
+                          &lt;title&gt;My First Webpage&lt;/title&gt;
+                        &lt;/head&gt;
+                        &lt;body&gt;
+                          This is some body text
+                        &lt;/body&gt;
+                      &lt;/html&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
   <div class="container-fluid">
     <div class="navbar-header">
